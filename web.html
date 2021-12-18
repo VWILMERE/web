@@ -12,7 +12,7 @@
             display: block;       
             }
             .header2 {
-                height: 55px;
+                height: 70px;
                 width: 100%;
                 background-color: red;
                 text-align: center;
@@ -52,6 +52,18 @@
             }
             .alinear2 {
                 text-align: left;
+                color: red;
+            }
+            .alinear3 {
+                text-align: center;
+                color: rgb(247, 247, 247);
+            }
+            .centro {
+                display: inline-flex;
+            }
+            .text {
+                text-align: left;
+                color: rgb(0, 68, 255);
             }
         </style>
 </head>
@@ -59,27 +71,29 @@
 <body>
  <div>
      <div class="header2">HEADER
-         <p class="alinear">prueba</p>
+         <h1 class="alinear3">BASICO DE HTML Y CSS</h1>
      </div>
      <div class="main2">
          <div class="sidenav2">SIDENAV2
-            <form action="">
-                <label for="birthdaytime">Birthday (date and time):</label>
-                <input type="datetime-local" id="birthdaytime" name="birthdaytime">
-                <input type="submit" value="Submit">
-            </form>       
+             <h3 class="alinear2">¿QUE ES EL CODIGO CSS?</h3>
+             <p class="alinear">La hoja de estilo en cascada o CSS (siglas en inglés de cascading style sheets) es un lenguaje usado para definir la presentación de un documento estructurado escrito en HTML y derivados. ... La idea que se encuentra detrás del desarrollo de CSS es separar la estructura de un documento de su presentación</p>
          </div>
          <div class="content2">CONTENT2
-          <p class="alinear">asfkhdsfjhsdfkdhsfksdfhksdfhkdfhksdhfksdf</p>
-          <img src="D:/fotito.jpg" alt="fotito">
+             <h3 class="text">QUE ES UN HTML Y PARA QUE SIRVE</h3>
+          <p class="alinear">El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.</p>
+          <img src="D:\IMAGENES DE PRUEBA/html.jpg" alt="fotito" width="200" height="180">
         </div>
      </div>
      <div class="footer2">FOOTER2
-        <ul class="alinear2">
+       <div class="centro">
+        <ul >
+            <ol>
             <li>cafe</li>
             <li>pan</li>
             <li>leche</li>
+            </ol>
         </ul>
+       </div> 
      </div>
  </div>
 </body>
